@@ -22,6 +22,7 @@ pip install pyspark findspark
 python test_example.py
 ```
 ### Ожидаемый результат
+```bash
 +------------+-------------+
 |product_name|category_name|
 +------------+-------------+
@@ -31,6 +32,7 @@ python test_example.py
 | Продукт 3  | Категория C |
 | Продукт 4  | null        |
 +------------+-------------+
+```
 ### Функция get_product_category_pairs()
 def get_product_category_pairs(
     products_df: DataFrame,
